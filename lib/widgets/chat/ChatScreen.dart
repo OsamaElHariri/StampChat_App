@@ -357,7 +357,7 @@ class _ChatScreenState extends State<ChatScreen> {
         title: Text("Leave the Chat"),
         callToAction: Text("YES, I'M OUT"),
         dangerousCallToAction: true,
-        cancelAction: Text("NO, I'M STAYING"),
+        cancelAction: Text("NEVERMIND"),
         actionPrompt: RichText(
           text: TextSpan(children: [
             TextSpan(text: "You really want to leave "),
