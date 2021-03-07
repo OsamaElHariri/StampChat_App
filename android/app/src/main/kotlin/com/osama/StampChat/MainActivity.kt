@@ -1,0 +1,6 @@
+package com.osama.StampChat
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

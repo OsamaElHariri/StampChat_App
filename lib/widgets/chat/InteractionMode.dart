@@ -1,0 +1,4 @@
+enum InteractionMode {
+  stamp,
+  input,
+}
