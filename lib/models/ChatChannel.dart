@@ -12,7 +12,7 @@ class ChatChannel {
   Stream<Map> get onMessage => _onMessageController.stream;
 
   void connect(String topic) {
-    _socket = PhoenixSocket('wss://${Api.baseUrl}/chat/socket/websocket',
+    _socket = PhoenixSocket(Api.chatUrl,
         socketOptions: PhoenixSocketOptions(params: {
           "token": Api.token,
         }))
