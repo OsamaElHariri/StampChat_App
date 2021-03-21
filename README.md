@@ -21,7 +21,6 @@ This is a side-project. It's also a complete app, backed by servers using a basi
 
 The app is built using the Flutter mobile framework. It uses Firebase services like authentication and dynamic links.
 
----
 The steps needed to run the app are:
 
 1. Download and install [Flutter](https://flutter.dev/docs/get-started/install)
@@ -41,6 +40,6 @@ flutter run
 
 \* On linux, I get my internal IP using the `hostname -I` command
 
----
+# Backend Services
 
 Running this app on it's own is not very useful as it will not work without the back-end servers that it needs. To run the backend servers, take a look at the [StampChat infrastructure repo](https://github.com/OsamaElHariri/StampChat_Kubernetes).
